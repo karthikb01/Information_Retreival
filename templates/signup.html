@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SignUp Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <style>
+      a {
+        text-decoration: none;
+        color: white;
+      }
+
+      label {
+        color: white;
+      }
+
+      a:hover {
+        text-decoration: none;
+        color: #4caf50;
+      }
+
+      body {
+        background: black;
+      }
+
+      .main-w3layouts {
+        padding: 3em 0 1em;
+      }
+
+      .agileits-top {
+        padding: 3em;
+        border: solid 1px #4caf50;
+        border-radius: 3%;
+      }
+
+      .agileits-top p {
+        font-size: 1em;
+        color: #fff;
+        text-align: center;
+        letter-spacing: 1px;
+        font-weight: 300;
+      }
+
+      .topnav {
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      .topnav a {
+        float: left;
+        background-color: #4caf50;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+
+      .topnav a:hover {
+        background-color: #4caf50;
+        color: black;
+      }
+
+      .topnav a.active {
+        background-color: #4caf50;
+        color: white;
+      }
+
+      .form-div {
+        width: 50%;
+        margin: 0 auto;
+      }
+
+      .submit-btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 4%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="topnav">
+      <a href="/gohome">Home</a>
+    </div>
+
+    <div class="main-w3layouts wrapper">
+      <h3
+        style="
+          text-align: center;
+          font-weight: bolder;
+          color: white;
+          margin-bottom: 2%;
+        "
+      >
+        SignUp Form
+      </h3>
+      <div class="form-div">
+        <div class="agileits-top">
+          <form action="/addrec" method="POST">
+            <div class="form-group">
+              <label>Name:</label>
+              <input
+                class="text form-control"
+                type="text"
+                name="Name"
+                required=""
+              />
+            </div>
+            <div class="form-group">
+              <label>Mobile Number:</label>
+              <input
+                class="text form-control"
+                type="text"
+                name="MobileNumber"
+                required=""
+              />
+            </div>
+
+            <div class="form-group">
+              <label>Email:</label>
+              <input
+                class="text email form-control"
+                type="email"
+                name="email"
+                required=""
+              />
+            </div>
+
+            <div class="form-group">
+              <label>Username:</label>
+              <input
+                class="text form-control"
+                type="text"
+                name="Username"
+                required=""
+              />
+            </div>
+
+            <div class="form-group">
+              <label>Password:</label>
+              <input
+                class="text form-control"
+                type="password"
+                name="password"
+                required=""
+              />
+            </div>
+
+            <div class="wthree-text">
+              <div class="clear"></div>
+            </div>
+            <div class="form-group submit-btn">
+              <input
+                type="submit"
+                class="btn btn-md btn-success"
+                value="Signup"
+              />
+            </div>
+          </form>
+          <p>Don't have an Account? <a href="/userlogin"> Login Now!</a></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

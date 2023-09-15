@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Results</title>
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <style>
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .topnav a:hover {
+            background-color: #4CAF50;
+            color: black;
+        }
+
+        .topnav a.active {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        #news {
+            /* width: 80%; */
+            padding: 1% 10%;
+            margin: 0 auto;
+            text-align: justify;
+            line-height: 2;
+        }
+
+        #key{
+            width: fit-content;
+            margin: 5% auto;
+        }
+    </style>
+
+<script src="navNews.js"></script>
+</head>
+
+<body onload="display()">
+
+    <!-- nav -->
+    <div class="topnav">
+        <a href="#" class="active">Results</a>
+    </div>
+
+    <h3 id="key"></h3>
+    <p id="news"></p>
+</body>
+
+</html>
