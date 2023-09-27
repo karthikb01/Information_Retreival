@@ -18,10 +18,6 @@ Before you continue, ensure you have met the following requirements:
 
 ## Operating instructions
 
-## 1. Extract the zip file with the name "Expo.zip". 
-
-## 1.Open the folder named Project.
-
 1. Executing the main_last.py script:
 	-> Double click on the "main_last.py".
 	-> This will open the command prompt which will contain a url something like: "http://127.0.0.1:5000".
